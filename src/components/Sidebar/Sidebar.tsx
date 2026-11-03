@@ -1,5 +1,3 @@
-import './Sidebar.css'
-
 function Sidebar() {
   return (
     <section className="bg-[#1A1C20] w-70 h-screen p-4 text-[#E2E2E8] h-full flex flex-col justify-between">
