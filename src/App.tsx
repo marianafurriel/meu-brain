@@ -1,4 +1,5 @@
 import Dashboard from './components/Dashboard/Dashboard';
+import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import StatsCards from './components/StatsCards/StatsCards';
 
@@ -7,12 +8,15 @@ function App() {
     <div className="flex flex-row h-screen w-screen bg-[#111317]">
     <Dashboard />
     <Sidebar />
-    <section className="flex w-full gap-4 p-4">
+    <main className="flex flex-col w-full h-full p-4">
+    <Navbar />
+    <section className="flex w-full gap-4">
       <StatsCards />
       <StatsCards />
       <StatsCards />
       <StatsCards />
     </section>
+    </main>
     </div>
   );
 }
