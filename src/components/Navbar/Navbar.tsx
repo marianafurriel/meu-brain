@@ -10,20 +10,29 @@ function Navbar() {
         />
 
         <input
-          placeholder="Buscar notas, artigos ou ideias..." className="w-127"
+          placeholder="Buscar notas, artigos ou ideias..." className="w-127 border-none outline-none"
         />
 
-        <img
-          src="../../src/assets/images/comand.svg"
-          alt="Comando"
-          className="h-6 w-6
-          bg-[#1E2024] p-4"
-        />
+        <div className="bg-[#1E2024] h-8 w-8 p-1 rounded-sm">
+
+          <img
+            src="../../src/assets/images/comand.svg"
+            alt="Comando" className="h-full w-full"
+          />
+        </div>
+
 
       </div>
 
       <div className="flex gap-4 items-center">
-        <button>+ Novo Registro</button>
+        <button className="inline-flex items-center justify-center gap-2 bg-[#D97707] text-[#432100] rounded-sm p-3 cursor-pointer">
+          <img
+            src="../../src/assets/images/mais.svg"
+            alt="Adicionar"
+            className="h-3 w-3 shrink-0"
+          />
+          <span className="font-bold leading-none">Novo Registro</span>
+        </button>
 
         <img
           className="h-9 w-4.25"
