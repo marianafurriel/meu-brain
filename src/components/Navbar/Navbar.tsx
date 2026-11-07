@@ -24,7 +24,7 @@ function Navbar() {
 
       </div>
 
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-5 items-center">
         <button className="inline-flex items-center justify-center gap-2 bg-[#D97707] text-[#432100] rounded-sm p-3 cursor-pointer">
           <img
             src="../../src/assets/images/mais.svg"
@@ -39,13 +39,14 @@ function Navbar() {
           src="../../src/assets/images/notificacao.svg"
           alt="Notificações"
         />
-
-        <div>
-          <h3>Pesquisador</h3>
-          <span>Segundo cérebro</span>
+        <div className="flex gap-2">
+        <div className="flex flex-col justify-center items-end leading-[1.05] font-bold">
+          <span className="text-[#E2E2E8]">Pesquisador</span>
+          <span className="text-[#DBC2B0]">Segundo cérebro</span>
         </div>
 
         <img src="../../src/assets/images/perfil.svg" alt="Avatar" />
+      </div>
       </div>
     </section>
   );
