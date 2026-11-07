@@ -1,7 +1,7 @@
 function Readings() {
     return (
         <section className="bg-[#1A1C20] text-[#DBC2B0] rounded-2xl w-fit h-fit p-4">
-            <div className="flex gap-10 border">
+            <div className="flex gap-10">
                 <div className="flex flex-col gap-2">
                     <div className="flex gap-2 items-center">
                         <span className="indice">MIT Press </span>
