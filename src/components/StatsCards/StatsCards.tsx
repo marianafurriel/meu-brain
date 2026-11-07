@@ -1,6 +1,6 @@
 function StatsCards() {
   return (
-    <section className="bg-[#1A1C20] w-full h-40 text-[#DBC2B0]">
+    <section className="bg-[#1A1C20] w-full h-40 text-[#DBC2B0] rounded-2xl">
 
         <div className="flex justify-between items-center p-4">
             <div className="flex gap-2 items-center">
