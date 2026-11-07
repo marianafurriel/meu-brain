@@ -1,6 +1,6 @@
 function TaskCard() {
     return (
-        <section className="bg-[#1A1C20] text-[#DBC2B0] rounded-2xl w-fit h-fit p-4">
+        <section className="flex gap-4 bg-[#1A1C20] text-[#DBC2B0] rounded-2xl w-fit h-fit p-4">
             <input type="checkbox" className="w-5 h-5 p-1 appearance-none bg-[#333539] border border-[#333539] rounded-sm checked:bg-[#4EDEA3]  checked:bg-[url('../../src/assets/images/check.svg')]   checked:bg-center bg-no-repeat bg-size[12px_12px]" />
             <div>
 

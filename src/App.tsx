@@ -26,6 +26,8 @@ function App() {
             <span className='text-[#DBC2B0]'>Ver biblioteca completa <img src="../../src/assets/images/arrow-right.svg" alt="" className='inline'/></span>
           </div>
           <Readings></Readings>
+
+          <TaskCard></TaskCard>
          
           </section>
       </main>
